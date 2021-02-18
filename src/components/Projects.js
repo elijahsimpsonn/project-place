@@ -27,7 +27,7 @@ export default function Projects() {
             <Project>
                 <img src={GameStash} alt="gamestash" className="pimg" />
                 <a href="https://gamestash.netlify.app/"><ProjectTitle>GameStash</ProjectTitle></a>
-                <ProjectText>GameStash isan application for keeping track of your game collection.</ProjectText>
+                <ProjectText>GameStash is an application for keeping track of your game collection.</ProjectText>
                 <ProjectText>
                     You can create and delete consoles, and create, edit, and delete games from the collection
                 </ProjectText>
