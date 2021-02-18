@@ -8,6 +8,7 @@ const IntroDiv = styled.div`
   color: white;
   padding: 0px 20px;
   position: relative;
+  height: 580px;
 
   @media (min-width: 640px) {
     
@@ -21,7 +22,7 @@ const UprightDiv = styled.div`
 const ProjectsDiv = styled.div`
   color: white;
   padding: 0px 20px;
-  margin-top: 150px;
+  margin-top: 200px;
 `;
 
 const Project = styled.div`
