@@ -14,10 +14,7 @@ export default function App() {
         <Site>
             <Intro />
             <Projects />
-            {/* <About />
-            <Skills />
-            
-            <Contact /> */}
+            <Contact />
         </Site>
     )
 }
