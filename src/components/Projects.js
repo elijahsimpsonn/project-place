@@ -22,6 +22,7 @@ export default function Projects() {
                     <Tech>Node.js</Tech>
                     <Tech>Express.js</Tech>
                     <Tech>PostgreSQL</Tech>
+                    <Tech>JWT Authentication</Tech>
                 </div>
             </Project>
             <Project>
@@ -51,9 +52,8 @@ export default function Projects() {
                     <Tech>Javascript</Tech>
                     <Tech>React</Tech>
                     <Tech>React Router</Tech>
-                    <Tech>Node.js</Tech>
-                    <Tech>Express.js</Tech>
-                    <Tech>PostgreSQL</Tech>
+                    <Tech>Axios</Tech>
+                    <Tech>Bootstrap</Tech>
                 </div>
             </Project>
         </ProjectsDiv>
