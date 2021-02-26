@@ -30,7 +30,7 @@ const UprightDiv = styled.div`
 const AboutDiv = styled.div`
   padding: 0px 20px;
   position: relative;
-  height: 100vh;
+  height: 80vh;
   margin-bottom: 50px;
 
   @media (max-width: 530px) {
@@ -43,6 +43,7 @@ const ProjectsDiv = styled.div`
   padding: 0px 20px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 
   @media (max-width: 890px) {
       display: initial;
