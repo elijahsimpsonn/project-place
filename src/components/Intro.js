@@ -9,10 +9,10 @@ export default function Intro() {
       <IntroHeader>
         <Typewriter
         options={{
-            delay: 14
+            delay: 20
         }}
         onInit={(typewriter) => {
-            typewriter.typeString("I'm Elijah Simpson, a full-stack engineer who likes to solve complex problems")
+            typewriter.typeString("I'm Elijah Simpson, a Full-Stack Engineer ")
             .start()
         }}
         />
