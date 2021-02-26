@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectsDiv, Project, ProjectTitle, ProjectText, Tech } from '../Styled'
+import { ProjectsDiv, Project, ProjectTitle, ProjectText, Tech, ProjectSectionTitle, ProjectLast } from '../Styled'
 import WaitCash from '../images/waitcash.gif'
 import GameStash from '../images/gamestash.gif'
 import CoinTrack from '../images/cointrack.gif'
@@ -7,6 +7,9 @@ import './Projects.css'
 
 export default function Projects() {
     return (
+    <>            
+    <ProjectSectionTitle>Projects</ProjectSectionTitle>
+
         <ProjectsDiv>
             <Project>
                 <img src={WaitCash} alt="waitcash" className="pimg" />
@@ -41,7 +44,7 @@ export default function Projects() {
                     <Tech>PostgreSQL</Tech>
                 </div>
             </Project>
-            <Project>
+            <ProjectLast>
                 <img src={CoinTrack} alt="cointrack" className="pimg" />
                 <a href="https://cointrack.netlify.app/"><ProjectTitle>CoinTrack</ProjectTitle></a>
                 <ProjectText>CoinTrack is a landing page made to show current information on different blockchain currencies. </ProjectText>
@@ -55,7 +58,8 @@ export default function Projects() {
                     <Tech>Axios</Tech>
                     <Tech>Bootstrap</Tech>
                 </div>
-            </Project>
+            </ProjectLast>
         </ProjectsDiv>
+        </>
     )
 }

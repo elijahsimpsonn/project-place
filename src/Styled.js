@@ -2,32 +2,73 @@ import styled from "styled-components";
 
 // --- DIVS --- //
 
-const Site = styled.div``;
+const Line = styled.hr`
+margin-top: 15px;
+width: 75%;
+
+`
+
+const Site = styled.div`
+  height: 100%;
+`;
 
 const IntroDiv = styled.div`
   color: white;
   padding: 0px 20px;
   position: relative;
-  height: 580px;
+  height: 100vh;
 
-  @media (min-width: 640px) {
-    
-  }
+  /* @media (min-width: 640px) {
+      height: auto
+  } */
 `;
 
 const UprightDiv = styled.div`
-  padding-top: 350px;
+  padding-top: 300px;
+`;
+
+const AboutDiv = styled.div`
+  padding: 0px 20px;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 50px;
+
+  @media (max-width: 530px) {
+      height: auto
+  }
 `;
 
 const ProjectsDiv = styled.div`
   color: white;
   padding: 0px 20px;
-  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 890px) {
+      display: initial;
+      
+  }
 `;
 
 const Project = styled.div`
+  text-align: center;
+  margin-bottom: 100px;
+  width: 50%;
+
+  @media (min-width: 300px) {
     text-align: center;
-    margin-bottom: 100px;
+    width: 50%;
+    align-self: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+`;
+
+const ProjectLast = styled.div`
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    margin: 0 auto
 `
 
 const ContactDiv = styled.div`
@@ -38,14 +79,31 @@ const ContactDiv = styled.div`
   text-align: center;
 `;
 
+const SkillsDiv = styled.span`
+    img {
+        margin-left: 1px;
+    }
+`;
+
+const Skills = styled.div`
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+
+    @media (min-width: 300px) {
+      width: auto;
+  }
+`
+
 // --- HEADERS --- //
 
 const IntroHeader = styled.h1`
   font-family: "Karla", sans-serif;
 
   @media (min-width: 400px) {
-    width: 371px
-}
+    width: 371px;
+  }
 `;
 
 const IntroUpright = styled.h3`
@@ -56,51 +114,107 @@ const IntroUpright = styled.h3`
   position: absolute;
   bottom: 0;
   right: 0;
+  margin-bottom: 40px;
 `;
 
 const ProjectTitle = styled.h3`
   font-family: "Karla", sans-serif;
-
-`
+`;
 
 const ContactTitle = styled.h3`
   font-family: "Karla", sans-serif;
-    text-align: center;
-`
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: initial;
+`;
+
+const AboutTitle = styled.h2`
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+`;
+
+const AboutText = styled.h3`
+  font-family: "Karla", sans-serif;
+  color: white;
+  /* text-align: center;   */
+  padding: 0px 10px;
+
+  @media (min-width: 1050px) {
+    padding: 0px 210px;
+    text-align: justify;
+  }
+`;
+
+const ProjectSectionTitle = styled.h2`
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding-left: 20px;
+`;
 
 const ProjectText = styled.p`
-font-family: 'Montserrat', sans-serif;
-padding: 0px 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 15px;
 
-@media (min-width: 480px) {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-`
+  @media (min-width: 480px) {
+    text-align: center;
+  }
+`;
 
 const Tech = styled.span`
-    font-family: "Karla", sans-serif;
-    display: inline-block;
-    font-size: .75rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border: 1px solid white;
-    border-radius: 3px;
-    margin-right: 3px;
-    margin-top: 3px;
-`
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+`;
 
 const ContactIcons = styled.span`
-    font-family: "Karla", sans-serif;
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border: 1px solid white;
-    border-radius: 3px;
-    margin-right: 8px;
-    margin-top: 3px;
-`
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-right: 8px;
+  margin-top: 3px;
 
-export { Site, IntroDiv, IntroHeader, IntroUpright, UprightDiv, ProjectsDiv, Project, ProjectTitle, ProjectText, Tech, ContactDiv, ContactTitle, ContactIcons };
+  :hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+`;
+
+export {
+  Site,
+  IntroDiv,
+  IntroHeader,
+  IntroUpright,
+  UprightDiv,
+  ProjectsDiv,
+  Project,
+  ProjectLast,
+  ProjectTitle,
+  ProjectText,
+  Tech,
+  ContactDiv,
+  ContactTitle,
+  ContactIcons,
+  AboutDiv,
+  AboutTitle,
+  AboutText,
+  ProjectSectionTitle,
+  SkillsDiv,
+  Skills,
+  Line,
+};
