@@ -7,7 +7,7 @@ export default function About() {
     <AboutDiv>
       <AboutTitle>About me</AboutTitle>
       <AboutText>
-      Hey there. I'm Elijah, and this is my portfolio. My main focus with this portfolio is to showcase my projects and skill set. I love all things development and software engineering, but my main focus is on full-stack web development. It has taken me longer than I thought it would but I have found my passion in coding. Even after a long and stressful day, it's the one thing I local forward to more than anything else. The ability to create whatever I can think of and challenge myself while doing it never gets old for me. Outside of development, I love traveling, cooking, and playing complex board games.
+    I love all things development and software engineering, but my main focus is on full-stack web development. It has taken me longer than I thought it would but I have found my passion in coding. Even after a long and stressful day, it's the one thing I local forward to more than anything else. The ability to create whatever I can think of and challenge myself while doing it never gets old for me. Outside of development, I love traveling, cooking, and playing complex board games.
       </AboutText>
       <AboutText>
       If you like what you see here, I would love to connect with you about an open position in your organization, a chance to partner with you on an open-source project, or just talk about development in general. I always enjoy talking about the industry and new technologies. Drop me a line at any of the contact links at the bottom of the page.

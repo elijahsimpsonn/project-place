@@ -57,9 +57,10 @@ const Project = styled.div`
 
   @media (min-width: 300px) {
     text-align: center;
-    width: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
-    margin: 0 auto;
     margin-bottom: 50px;
   }
 `;
@@ -68,7 +69,13 @@ const ProjectLast = styled.div`
     text-align: center;
     width: 50%;
     align-self: center;
-    margin: 0 auto
+    margin: 0 auto;
+
+    @media (min-width: 300px) {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `
 
 const ContactDiv = styled.div`
@@ -126,7 +133,7 @@ const ContactTitle = styled.h3`
   color: white;
   font-size: 30px;
   margin-bottom: 60px;
-  text-align: initial;
+  text-align: center;
 `;
 
 const AboutTitle = styled.h2`
@@ -134,6 +141,7 @@ const AboutTitle = styled.h2`
   color: white;
   font-size: 30px;
   margin-bottom: 60px;
+  text-align: center;
 `;
 
 const AboutText = styled.h3`
@@ -153,7 +161,7 @@ const ProjectSectionTitle = styled.h2`
   color: white;
   font-size: 30px;
   margin-bottom: 60px;
-  padding-left: 20px;
+  text-align: center;
 `;
 
 const ProjectText = styled.p`
