@@ -30,7 +30,6 @@ const UprightDiv = styled.div`
 const AboutDiv = styled.div`
   padding: 0px 20px;
   position: relative;
-  height: 80vh;
   margin-bottom: 50px;
 
   @media (max-width: 530px) {
