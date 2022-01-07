@@ -1,0 +1,13 @@
+.pimg {
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 10px;
+
+   
+} 
+@media only screen and (min-width: 480px) {
+    .pimg{
+        width: 200px
+    }
+        
+    }
