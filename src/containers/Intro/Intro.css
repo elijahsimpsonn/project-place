@@ -1,0 +1,29 @@
+.intro-container {
+  color: white;
+  padding: 0px 20px;
+  position: relative;
+  height: 100vh;
+
+  /* @media (min-width: 640px) {
+        height: auto
+    } */
+}
+
+.intro-header {
+  font-family: "Karla", sans-serif;
+
+  @media (min-width: 400px) {
+    width: 371px;
+  }
+}
+
+.upright-text {
+  text-orientation: upright;
+  writing-mode: tb-rl;
+  font-family: "Karla", sans-serif;
+  letter-spacing: -5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 40px;
+}

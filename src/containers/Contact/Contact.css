@@ -1,0 +1,36 @@
+.contact-container {
+  color: white;
+  padding: 0px 20px;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-header {
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.contact-items {
+}
+
+.contact-icon {
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.contact-icon:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

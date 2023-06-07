@@ -1,12 +1,12 @@
 import React from "react";
-import { IntroDiv, IntroHeader, IntroUpright, UprightDiv } from "../Styled";
+import './Intro.css'
 import Typewriter from 'typewriter-effect';
 
 export default function Intro() {
   return (
-    <IntroDiv>
-      <IntroHeader>Hello</IntroHeader>
-      <IntroHeader>
+    <div className="intro-container">
+      <h1 className="intro-header">Hello</h1>
+      <h1 className="intro-header">
         <Typewriter
         options={{
             delay: 20
@@ -16,10 +16,10 @@ export default function Intro() {
             .start()
         }}
         />
-      </IntroHeader>
-      <UprightDiv>
-        <IntroUpright>Check It Out &#x2199;</IntroUpright>
-      </UprightDiv>
-    </IntroDiv>
+      </h1>
+      <h3 className="upright-text">
+        <span>Check It Out &#x2199;</span>
+      </h3>
+    </div>
   );
 }

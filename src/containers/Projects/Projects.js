@@ -1,5 +1,6 @@
+/*
 import React from 'react'
-import { ProjectsDiv, Project, ProjectTitle, ProjectText, Tech, ProjectSectionTitle, ProjectLast } from '../Styled'
+import { ProjectsDiv, Project, ProjectTitle, ProjectText, Tech, ProjectSectionTitle, ProjectLast } from '../../Styled'
 import WaitCash from '../images/waitcash.gif'
 import CoinTrack from '../images/cointrack.gif'
 import './Projects.css'
@@ -46,3 +47,4 @@ export default function Projects() {
         </>
     )
 }
+*/
