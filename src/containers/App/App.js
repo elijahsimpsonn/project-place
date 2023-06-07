@@ -16,13 +16,16 @@ export default function App() {
             <Intro />
             <About />
             <HorizontalLine />
+            <Experience />
+            <HorizontalLine />
+            <Projects />
+            <HorizontalLine />
             <Contact />
         </div>
     )
 }
 
 //TODO - Add Projects Section When Refactored
-//TODO - Add Experience Section When Created
 //TODO - Add Blog Section When Created
 //TODO - Add Education Section When Created
 

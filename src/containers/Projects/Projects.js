@@ -1,3 +1,24 @@
+import React from "react";
+import "./Projects.css";
+import waitcash from "../../images/waitcash.gif";
+import cointrack from "../../images/cointrack.gif";
+
+export default function Projects() {
+  return (
+    <>
+      <h2 className="projects-header">Projects</h2>
+      <div className="projects-container">
+        <div className="project">
+          <img className="mobile-project-img" src={waitcash}></img>
+        </div>
+        <div className="project">
+          <img className="mobile-project-img" src={cointrack}></img>
+        </div>
+      </div>
+    </>
+  );
+}
+
 /*
 import React from 'react'
 import { ProjectsDiv, Project, ProjectTitle, ProjectText, Tech, ProjectSectionTitle, ProjectLast } from '../../Styled'

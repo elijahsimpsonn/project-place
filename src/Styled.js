@@ -2,16 +2,6 @@ import styled from "styled-components";
 
 // --- DIVS --- //
 
-const Line = styled.hr`
-margin-top: 15px;
-width: 75%;
-
-`
-
-const Site = styled.div`
-  height: 100%;
-`;
-
 const UprightDiv = styled.div`
   padding-top: 300px;
 `;
@@ -99,7 +89,6 @@ const Tech = styled.span`
 
 
 export {
-  Site,
   UprightDiv,
   ProjectsDiv,
   Project,
@@ -108,5 +97,4 @@ export {
   ProjectText,
   Tech,
   ProjectSectionTitle,
-  Line,
 };

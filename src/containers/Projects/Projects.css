@@ -1,13 +1,22 @@
-.pimg {
-    width: 90%;
-    border: 1px solid white;
-    border-radius: 10px;
+.projects-header {
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
 
-   
-} 
-@media only screen and (min-width: 480px) {
-    .pimg{
-        width: 200px
-    }
-        
-    }
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+    margin: 0px 25px 0px 0px;
+}
+
+.mobile-project-img {
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
