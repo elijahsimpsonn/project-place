@@ -1,16 +1,19 @@
 import React from "react";
-import { AboutDiv, AboutTitle, AboutText, SkillsDiv, Skills, Line } from "../Styled";
+import { AboutDiv, AboutTitle, AboutText, SkillsDiv, Skills, Line, MainAboutText } from "../Styled";
 import "./About.css";
 
 export default function About() {
   return (
     <AboutDiv>
       <AboutTitle>About me</AboutTitle>
+      <MainAboutText>
+      <p>Product Manager | Creating User-Centric, Worldclass Products <br /> Promoting Agile Methodolgies & Workflows | Establishing DevOps Culture & Best Practices</p>
+      </MainAboutText>
       <AboutText>
-    I love all things development and software engineering. My main focus, however, is on full-stack web development. The ability to create whatever I can think of and challenge myself while doing it never gets old for me. Outside of development, I love traveling, cooking, and playing complex board games.
+      Ever since I discovered Product Management, I have been obsessed with creating and delivering world-class products with outstanding customer experiences and value. Alongside helping others grow personally and professionally, it is what drives me to go the extra mile every day. I believe in working hard, treating people with respect, and focusing on a defined vision.
       </AboutText>
       <AboutText>
-      If you like what you see here, I would love to connect with you about an open position in your organization, a chance to partner with you on an open-source project, or just talk about development in general. I always enjoy talking about the industry and new technologies. Drop me a line at any of the contact links at the bottom of the page.
+      <p>If you like what you see here, I would love to connect with you about an open position in your organization, a chance to partner with you on an open-source project, or just talk about development in general. I always enjoy talking about the industry and new technologies. Drop me a line at any of the contact links at the bottom of the page.</p>
       </AboutText>
       <Skills>
         <SkillsDiv>

@@ -156,6 +156,12 @@ const AboutText = styled.h3`
   }
 `;
 
+const MainAboutText = styled.h3`
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  color: white;
+`;
+
 const ProjectSectionTitle = styled.h2`
   font-family: "Karla", sans-serif;
   color: white;
@@ -221,6 +227,7 @@ export {
   AboutDiv,
   AboutTitle,
   AboutText,
+  MainAboutText,
   ProjectSectionTitle,
   SkillsDiv,
   Skills,
