@@ -20,6 +20,8 @@ export default function App() {
             <HorizontalLine />
             <Projects />
             <HorizontalLine />
+            <Education />
+            <HorizontalLine />
             <Contact />
         </div>
     )
