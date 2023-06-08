@@ -28,10 +28,10 @@ export default function Experience() {
         </div>
 
         <div className="company-experience-section">
-          <p>I started my career at Medacist as a Full Stack Developer in March of 2021. During my time in development I refined our style system for frontend components, spearheaded the
-          development of large scale features, and took ownership of our unit and integration testing efforts by increasing testing coverage by over 40%.</p>
+          <p>I started my career at Medacist as a Full Stack Developer in March of 2021. During my time in development, I refined our style system for frontend components, spearheaded the
+          development of large-scale features, and took ownership of our unit and integration testing efforts by increasing testing coverage by over 40%.</p>
 
-          <p>While still working in the development effort, I took on the role of Associata Product Manager, helping the Director of Product move our solutions forward. This quickly turned into a Product Manager role, which I am still currently in. In this role I drive the direction of our products and solutions, provding great experiences for our Users.</p>
+          <p>While still working in the development effort, I took on the role of Associate Product Manager, helping the Director of Product move our solutions forward. This quickly turned into a Product Manager role, which I am still currently in. In this role I drive the direction of our products and solutions, providing great experiences for our Users.</p>
 
           <p>I also own the role of Scrum Master in our organization and I was the Lead User Interface Designer for four months during the start of 2022.</p>
         </div>
