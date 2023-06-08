@@ -2,6 +2,8 @@ import React from "react";
 import "./Projects.css";
 import waitcash from "../../images/waitcash.gif";
 import cointrack from "../../images/cointrack.gif";
+import investigate from "../../images/investigate.png";
+import reconcile from "../../images/reconcile.png";
 
 export default function Projects() {
   return (
@@ -9,10 +11,24 @@ export default function Projects() {
       <h2 className="projects-header">Projects</h2>
       <div className="projects-container">
         <div className="project">
-          <img className="mobile-project-img" src={waitcash}></img>
+          <a href="https://medacist.com/drug-diversion-monitoring-software" target="_blank">
+            <img className="web-project-img" src={investigate}></img>
+          </a>
         </div>
         <div className="project">
-          <img className="mobile-project-img" src={cointrack}></img>
+          <a href="https://medacist.com/medication-reconciliation-audit-tool" target="_blank">
+            <img className="web-project-img" src={reconcile}></img>
+          </a>
+        </div>
+        <div className="project">
+          <a href="https://github.com/elijahsimpsonn/Waitcash-Client" target="_blank">
+            <img className="mobile-project-img" src={waitcash}></img>
+          </a>
+        </div>
+        <div className="project">
+          <a href="https://github.com/elijahsimpsonn/CoinTrack" target="_blank">
+            <img className="mobile-project-img" src={cointrack}></img>
+          </a>
         </div>
       </div>
     </>
